@@ -4,7 +4,7 @@ import os
 import json
 
 # ===================== 【1. 核心引擎】 =====================
-BASE_DIR = r"E:\桌面"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_DB = os.path.join(BASE_DIR, "crm_database.json")
 
 DB_COLUMNS = [
